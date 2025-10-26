@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio de Yassine</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="hero" id="accueil">
+      <nav class="navbar">
+        <div class="logo">Yassine<span>.</span></div>
+        <ul class="nav-links">
+          <li><a href="#accueil">Accueil</a></li>
+          <li><a href="#a-propos">À propos</a></li>
+          <li><a href="#competences">Compétences</a></li>
+          <li><a href="#projets">Projets</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="burger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+      <div class="hero-content">
+        <p class="eyebrow">Développeur web & mobile</p>
+        <h1>Bonjour, je suis <span>Yassine</span></h1>
+        <p>
+          Passionné par la création d'expériences numériques élégantes et
+          performantes, je transforme des idées en produits concrets.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#projets">Voir mes projets</a>
+          <a class="btn secondary" href="#contact">Me contacter</a>
+        </div>
+      </div>
+      <div class="hero-illustration" aria-hidden="true">
+        <div class="blob"></div>
+        <div class="card">
+          <div class="status">
+            <span class="dot"></span>
+            Disponible pour de nouvelles opportunités
+          </div>
+          <p>
+            "Chaque ligne de code est une occasion de créer quelque chose
+            d'extraordinaire."
+          </p>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="section" id="a-propos">
+        <div class="section-title">
+          <h2>À propos</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-grid">
+          <div class="about-text">
+            <p>
+              Je suis un développeur polyvalent avec une forte sensibilité pour le
+              design et l'expérience utilisateur. J'aime imaginer des solutions
+              simples à des problèmes complexes, tout en m'assurant que chaque
+              détail contribue à la qualité du produit final.
+            </p>
+            <p>
+              Au-delà de la technique, j'apprécie le travail d'équipe, le partage
+              de connaissances et l'amélioration continue.
+            </p>
+          </div>
+          <ul class="about-facts">
+            <li>
+              <span class="fact-label">Ville</span>
+              <span class="fact-value">Casablanca, Maroc</span>
+            </li>
+            <li>
+              <span class="fact-label">Expérience</span>
+              <span class="fact-value">3+ ans en développement web</span>
+            </li>
+            <li>
+              <span class="fact-label">Spécialités</span>
+              <span class="fact-value">Front-end, UI/UX, applications mobiles</span>
+            </li>
+            <li>
+              <span class="fact-label">Intérêts</span>
+              <span class="fact-value">IA, design, voyages</span>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section light" id="competences">
+        <div class="section-title">
+          <h2>Compétences</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="skills-grid">
+          <article class="skill-card">
+            <h3>Front-end</h3>
+            <ul>
+              <li>React, Vue.js</li>
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>Animations & design system</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Back-end</h3>
+            <ul>
+              <li>Node.js, Express</li>
+              <li>Python, Django</li>
+              <li>APIs REST & GraphQL</li>
+            </ul>
+          </article>
+          <article class="skill-card">
+            <h3>Outils</h3>
+            <ul>
+              <li>Git & GitHub</li>
+              <li>Figma, Notion</li>
+              <li>CI/CD & tests automatisés</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projets">
+        <div class="section-title">
+          <h2>Projets sélectionnés</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-content">
+              <h3>Atlas Explorer</h3>
+              <p>
+                Une application mobile immersive pour découvrir le patrimoine
+                culturel marocain grâce à de la réalité augmentée et des parcours
+                personnalisés.
+              </p>
+              <ul class="project-tags">
+                <li>Flutter</li>
+                <li>Firebase</li>
+                <li>UX Research</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <h3>MedAssist</h3>
+              <p>
+                Plateforme web qui simplifie la gestion des dossiers médicaux et la
+                communication entre patients et professionnels de santé.
+              </p>
+              <ul class="project-tags">
+                <li>React</li>
+                <li>Node.js</li>
+                <li>Design System</li>
+              </ul>
+            </div>
+          </article>
+          <article class="project-card">
+            <div class="project-content">
+              <h3>EcoShop</h3>
+              <p>
+                Boutique en ligne dédiée aux produits responsables, avec
+                recommandations personnalisées et mise en avant d'artisans locaux.
+              </p>
+              <ul class="project-tags">
+                <li>Next.js</li>
+                <li>Stripe</li>
+                <li>Accessibility</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section light" id="contact">
+        <div class="section-title">
+          <h2>Contact</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-card">
+          <p>
+            Une idée de projet ou simplement envie d'échanger ? Parlons-en autour
+            d'un café virtuel.
+          </p>
+          <ul class="contact-info">
+            <li><span>Email :</span> <a href="mailto:hello@yassine.dev">hello@yassine.dev</a></li>
+            <li><span>Téléphone :</span> <a href="tel:+212600000000">+212 6 00 00 00 00</a></li>
+            <li><span>LinkedIn :</span> <a href="https://www.linkedin.com/in/yassine" target="_blank" rel="noreferrer">linkedin.com/in/yassine</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Yassine. Tous droits réservés.</p>
+    </footer>
+
+    <script>
+      const burger = document.querySelector(".burger");
+      const navLinks = document.querySelector(".nav-links");
+
+      burger.addEventListener("click", () => {
+        navLinks.classList.toggle("open");
+        burger.classList.toggle("open");
+      });
+
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
